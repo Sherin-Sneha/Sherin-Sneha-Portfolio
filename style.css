@@ -780,7 +780,7 @@ footer i {
   }
 }
 
-@media (min-width: 360px) {
+@media (max-width: 768px) {
   .text-lavendar{
     font-size: 6rem;
       }
