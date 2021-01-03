@@ -21,8 +21,8 @@ body {
 
 .btn :hover{
   color: rgb(196,106,177);
-
 }
+
 /*  font-family: 'Big Shoulders Inline Text', cursive;
 
     font-family: 'Josefin Slab', serif;
@@ -746,12 +746,14 @@ input:focus, textarea:focus {
 
 .contact-details {
   font-size: 2.4rem;
-  text-shadow: 2px 2px 1px #1f1f1f;
   transition: transform 0.3s ease-out;
+  color: rgb(132,49,117);
 }
+
 
 .contact-details:hover {
   transform: translateY(8px);
+  color: rgb(196,106,177);
 }
 
 /* Footer */
