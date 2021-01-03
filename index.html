@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<!-- test -->
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.css"
+    />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Sherin Sneha | Portfolio </title>
+    <link rel="icon" href="assets/icon.png" type="image/icon type">
+  </head>
+
+
+  <body>
+    <!-- navbar start -->
+    <nav class="nav nav-expand-lg nav-light fixed-top">
+      <a class="nav-brand smooth" href="#home"><img src="assets/logo.png" alt="SherinSneha" height="50" /></a>
+      <div class="container">
+          <div class="logo">
+              <a class="logo smooth" href="#home">Sherin Sneha</a>
+          </div>
+          <div id="mainListDiv" class="main_list">
+              <ul class="navlinks">
+                  <li><a class="navlinks smooth" href="#home">Home</a></li>
+                  <li><a class="navlinks smooth" href="#about">About</a></li>
+                  <li><a class="navlinks smooth" href="#skills">Skills</a></li>
+                  <li><a class="navlinks smooth" href="#contact">Contact</a></li>
+                  <li><a href="resume.pdf" target="_blank">Resume</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+<!-- Jquery needed -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
+
+<!-- Function used to shrink nav bar removing paddings and adding black background -->
+<script>
+    $(window).scroll(function() {
+        if ($(document).scrollTop() > 50) {
+            $('.nav').addClass('affix');
+            console.log("OK");
+        } else {
+            $('.nav').removeClass('affix');
+        }
+    });
+</script>
+<!-- navbar end -->
+  
+<!-- home starts -->
+  <section id= "home" class="home d-flex align-items-center">
+    <div class="container text-center ">
+      <span class="text-lavendar">
+        Hi! This is Sherin 
+      </span>
+      <p class="text-purple text-tagline">
+        Software Designer & Engineer
+      </p> 
+      <p class="text-pink text-tagline">
+        Scroll to know more
+      </p>
+  </section>
+<!-- home ends -->
+
+<!-- about sec starts-->
+<section id= "about" class="about d-flex">
+  <div class="container">
+    <p class="text-head">Here's about me</p>
+    <p class="text-main">I love developing Web Apps, interested in Mobile Apps, UI/UX design, Game Development, Internet Of Things. In short I love technology and techy stuffs.</p>
+    <p class="text-sub">Other thing I love is learning new everyday, Love Music, Art & Crafts, Badminton and Photography</p>
+    <p class="text-content">I currently pursue a Bachelors degree in Information Technology and member of PATTARAI, an Engineering project club based out of Loyola - ICAM College of Engineering and Technology.</p>
+</section>   
+<!-- about sec ends-->
+
+<!-- skills start -->
+<section id="skills" class="skills d-flex">
+  <article class="skills">
+    <div class="skills t-4">Skills</div>
+      <div class="t-6">
+          <p>HTML5<span></span><span class="skills"></span></p>
+      </div>
+      <div class="t-6">
+          <p>CSS3<span></span><span class="skills"></span></p>
+      </div>
+      
+      <div class="t-6">
+          <p>JS / Bootstrap<span></span><span class="skills"></span></p>
+      </div>
+      <div class="t-6">
+          <p>Dart<span></span><span class="skills"></span></p>
+      </div>
+      <div class="t-6">
+          <p>Java<span></span><span class="skills"></span></p>
+      </div>
+      <div class="t-6">
+        <p>IOT<span></span><span class="skills"></span></p>
+    </div>
+      <div class="t-6">
+          <p>Python<span></span><span class="skills"></span></p>
+      </div>  
+  </article>
+</section>
+<!-- skills end -->
+
+<!-- contact start -->
+<section id= "contact">
+<footer class="contact-distributed">
+
+  <div class="contact-left">
+
+    <p class="contact">Contact</p>
+
+    <h3>Sherin <span> Sneha</span></h3>
+
+    <p class="contact-links">
+      <a href="mailto:sherinsnehaj@gmail.com" target="_blank">  sherinsnehaj@gmail.com</a>
+    </p>
+    <p class="t-1">+91 9150522345</p>
+
+  </div>
+
+  <div class="contact-right">
+
+    <p>Tell me</p>
+
+    <form action="#" method="post">
+
+      <input type="text" name="email" placeholder="Email">
+      <textarea name="message" placeholder="Message"></textarea>
+      <button>Send</button>
+
+    </form>
+
+  </div>
+
+</footer></section>
+<!-- contact end -->
+    <!-- footer start -->
+    <footer>
+    <div class="contact-links">
+      <a href="https://www.linkedin.com/in/sherin-sneha-j/" target="_blank" class="btn contact-details"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a id="profile-link" href="https://github.com/Sherin-Sneha" target="_blank" class="btn contact-details"><i class="fab fa-github"></i> GitHub</a>
+      <a href="https://twitter.com/SherinSnehaJ" target="_blank" class="btn contact-details"><i class="fab fa-twitter"></i> Twitter</a>
+      <a href="mailto:sherinsnehaj@gmail.com" class="btn contact-details"><i class="fas fa-envelope"></i> Send a mail</a>
+      <a href="tel:9150-522-345" class="btn contact-details"><i class="fas fa-mobile-alt"></i> Call me</a>
+    </div></footer>
+    <!-- footer ends -->
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
+
+    <script>
+      var rellax = new Rellax(".rellax");
+    </script>
+    <script src="smoothscroll.js"></script>
+  </body>
+</html>
