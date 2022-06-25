@@ -260,6 +260,10 @@ section article.skills div:nth-child(8) span:nth-child(2) {
   width: 75%;
   animation-delay: 0.35s;
 }
+section article.skills div:nth-child(9) span:nth-child(2) {
+  width: 80%;
+  animation-delay: 0.05s;
+}
 
 .skills {
   animation: skills 2s cubic-bezier(0.17, 0.67, 0, 1); 
