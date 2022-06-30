@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+@import url('https://fonts.googleapis.com/css?family=Kumar One');
+
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@500&family=Josefin+Slab:ital,wght@1,500&family=Unica+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Geostar&family=Kumar+One+Outline&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Darker+Grotesque:wght@300&family=Poiret+One&display=swap');
+
 html,
 body {
     margin: 0;
@@ -105,16 +111,16 @@ body {
 /* Home section */
 .text-lavendar {
     color: rgb(196,106,177);
-    font-family:'Amatic SC', cursive;
-    font-size:7rem;
-    font-weight: bold;
+    font-family:'Monoton';
+    font-size:6rem;
+    font-weight: Thin;
 }
 
 .text-purple {
-    color:  rgb(132,49,117);
-    font-family: 'Unica One', cursive;
-    font-size: 3rem;
-    font-weight: bold;
+    color:  rgb(240, 140, 218);
+    font-family: 'Audiowide';
+    font-size: 33px;
+    font-weight: thin;
 }
 
 .text-pink {
